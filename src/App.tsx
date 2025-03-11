@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import pptxgen from 'pptxgenjs';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Gemini API 초기화 - 환경 변수에서 로드
-const API_KEY = import.meta.env.VITE_API_KEY; // Vite 환경 변수에서 API 키 가져오기
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY; // Vite 환경 변수에서 API 키 가져오기
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 // 간단한 API 테스트 함수
