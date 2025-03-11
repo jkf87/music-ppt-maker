@@ -11,7 +11,7 @@
 
 ## 사용 방법
 
-1. [웹사이트](https://[your-username].github.io/music-ppt-maker/)에 접속합니다.
+1. [웹사이트](https://jkf87.github.io/music-ppt-maker/)에 접속합니다.
 2. 음악 제목과 아티스트 이름을 입력합니다.
 3. 가사를 입력합니다.
 4. "Generate Marp Code" 버튼을 클릭합니다.
@@ -21,7 +21,7 @@
 
 ```bash
 # 저장소 클론
-git clone https://github.com/[your-username]/music-ppt-maker.git
+git clone https://github.com/jkf87/music-ppt-maker.git
 cd music-ppt-maker
 
 # 의존성 설치
